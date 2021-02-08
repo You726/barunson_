@@ -104,8 +104,10 @@
                     android:layout_weight="1"
                     android:background="@color/white"
                     android:gravity="center"
+                    android:id="@+id/chatBotOn"
+                    android:text="바른손 챗봇 \n[바른이]"
                     android:textColor="@color/black"
-                    android:textSize="20dp" />
+                    android:textSize="15dp" />
 
                 <View
                     android:layout_width="2dp"
@@ -118,8 +120,10 @@
                     android:layout_weight="1"
                     android:background="@color/white"
                     android:gravity="center"
+                    android:id="@+id/HomePage"
+                    android:text="바른손 블로그"
                     android:textColor="@color/black"
-                    android:textSize="20dp" />
+                    android:textSize="15dp" />
 
                 <View
                     android:layout_width="2dp"

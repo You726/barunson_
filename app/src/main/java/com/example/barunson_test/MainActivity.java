@@ -190,6 +190,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button homepage = (Button)findViewById(R.id.HomePage);
+        homepage.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Intent homepage = new Intent(Intent.ACTION_VIEW, Uri.parse("https://blog.naver.com/mippy2524"));
+                startActivity(homepage);
+            }
+        });
         Button btn_close = (Button) findViewById(R.id.delete);
         btn_close.setOnClickListener(new View.OnClickListener() {
             @Override
