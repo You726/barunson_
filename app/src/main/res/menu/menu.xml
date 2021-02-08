@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="1번"
+        android:id="@+id/menu1">
+<!--        <menu>-->
+<!--            <item-->
+<!--                android:id="@+id/item1_1"-->
+<!--                android:enabled="true"-->
+<!--                app:showAsAction="never"-->
+<!--                android:icon="@drawable/ic_baseline_check_24"-->
+<!--                android:title="1-1" />-->
+<!--            <item-->
+<!--                android:id="@+id/item1_2"-->
+<!--                android:enabled="true"-->
+<!--                app:showAsAction="never"-->
+<!--                android:icon="@drawable/ic_baseline_check_24"-->
+<!--                android:title="1-2" />-->
+<!--            <item-->
+<!--                android:id="@+id/item1_3"-->
+<!--                android:enabled="true"-->
+<!--                app:showAsAction="never"-->
+<!--                android:icon="@drawable/ic_baseline_check_24"-->
+<!--                android:title="1-3" />-->
+<!--        </menu>-->
+    </item>
+    <item android:title="2번"
+        android:id="@+id/menu2">
+<!--        <group-->
+<!--            android:id="@+id/menu2"-->
+<!--            android:checkableBehavior="single"-->
+<!--            >-->
+<!--            <menu>-->
+<!--                <item-->
+<!--                    android:id="@+id/item2_1"-->
+<!--                    android:enabled="true"-->
+<!--                    android:icon="@drawable/ic_baseline_check_24"-->
+<!--                    android:title="2-1" />-->
+<!--                <item-->
+<!--                    android:id="@+id/item2_2"-->
+<!--                    android:enabled="true"-->
+<!--                    android:icon="@drawable/ic_baseline_check_24"-->
+<!--                    android:title="1-2" />-->
+<!--                <item-->
+<!--                    android:id="@+id/item2_3"-->
+<!--                    android:enabled="true"-->
+<!--                    android:icon="@drawable/ic_baseline_check_24"-->
+<!--                    android:title="2-3" />-->
+<!--            </menu>-->
+<!--        </group>-->
+    </item>
+    <item android:title="3번">
+        <group
+            android:id="@+id/menu3"
+            android:checkableBehavior="single">
+            <menu>
+                <item
+                    android:id="@+id/menu3_1"
+                    android:icon="@drawable/ic_baseline_check_24"
+                    android:title="3-1" />
+                <item
+                    android:id="@+id/menu3_2"
+                    android:icon="@drawable/ic_baseline_check_24"
+                    android:title="3-2" />
+<!--                <item-->
+<!--                    android:id="@+id/item3_3"-->
+<!--                    android:enabled="true"-->
+<!--                    android:icon="@drawable/ic_baseline_check_24"-->
+<!--                    android:title="3-3" />-->
+            </menu>
+        </group>
+    </item>
+</menu>
