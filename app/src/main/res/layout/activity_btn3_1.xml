@@ -62,12 +62,23 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <RelativeLayout
-            android:id="@+id/map_view"
-            android:layout_width="400dp"
-            android:layout_height="400dp"
-            android:layout_margin="5dp"
-            android:gravity="center" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:id="@+id/map_view"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                android:layout_margin="5dp"
+                android:gravity="center" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="▶ 자차 이용 : 대전 유성구 관평1로 15(롯데마트 대덕점 옆)\n건물내 주차장 이용\n\n▶ 대중교통 이용\n5번 탑승시 [테크노밸리7단지]에서 하차(도보 4분)\n301, 704, 705, 802, 712, 1번 탑승시 [관평중학교]에서 하차 (도보 5분)\n\n301, 704, 802번 탑승시 [롯데마트 대덕점]에서 하차(도보 6분)\n\n*진료시간\n평일 : 09:30~18:30\n월,수요일 : 09:30~20.30(야간진료)\n토요일 : 09:30~13:30\n점심시간 : 12:30~14:00\n※진료에약문의 : 042-934-2275"
+                android:layout_margin="5dp"/>
+        </LinearLayout>
     </LinearLayout>
 
     <include layout="@layout/activity_drawer" />
